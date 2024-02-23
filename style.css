@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.image-container {
+  height: 100vh;
+  background-image: url('./img_main.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.order-btn {
+  background-color: white;
+  color: black;
+  padding: 0.8em;
+  font: small-caps 24px/1 sans-serif;
+  border: 0;
+  text-decoration: none;
+}
